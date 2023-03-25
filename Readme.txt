@@ -16,3 +16,6 @@ A searching algorithm is a procedure used to find a specific element within a co
 The most common type of searching algorithm is the linear search, also known as sequential search. 
 Another type of searching algorithm is the binary search. Binary search is more efficient than linear search, especially for large collections.
 
+Corresponding link of website is here,
+It is deployed on Netlify.
+https://keen-frangipane-f47ccd.netlify.app/
