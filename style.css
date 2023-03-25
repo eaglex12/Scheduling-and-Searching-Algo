@@ -1,0 +1,141 @@
+    body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+header a:hover {
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 70px;
+    background-image: url('images/simple.png');
+    background-size: cover;
+    background-position: center;
+}
+#submit-btn {
+    background: #333;
+    color: #fff;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+#submit-btn:hover {
+    background: #fff;
+    color: #333;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+p{
+    color:rgb(196, 128, 18);
+    font-size: 30px;
+    
+}
+h3{
+    color:burlywood;
+}
+.social {
+    text-align: right;
+  }
+  .social ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+  .social li {
+    display: inline-block;
+    font-size: 1.25em;
+    list-style: none;
+  }
+  .social a {
+    display: block;
+    color: #74808a;
+    padding: 10px;
+  }
+  .social a:hover {
+    color: #3498db;
+  }
+  .contact-section {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-list li {
+    margin: 0 20px;
+  }
+  
+  .contact-list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contact-list a:hover {
+    color: #007bff;
+  }
+  
+  .contact-list i {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list span {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+   
+  
+ 
+
+  
+    
+
+

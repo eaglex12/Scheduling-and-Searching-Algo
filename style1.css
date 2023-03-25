@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Regular.eot');
+	src: local('☺'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Play';
+	src: url('../fonts/Play-Regular.eot');
+	src: local('☺'), url('../fonts/Play-Regular.woff') format('woff'), url('../fonts/Play-Regular.ttf') format('truetype'), url('../fonts/Play-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+body {
+    margin: 10px 20px;
+    font-family: 'OpenSans';
+}
+
+.instructions {
+    font-size: 14px;
+    margin: 10px 20px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+}
+
+td {
+    padding: 0 2px;
+}
+
+table input {
+    text-align: center;
+    border: none;
+    width: 100px;
+}
+
+.process-btn {
+    height: 5px;
+}
+
+.process-btn button {
+    height: 20px;
+    width: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    padding: 5px;
+}
+
+.schedule-table-process,
+.schedule-table-process td {
+    border: 1px solid black;
+}
+
+.schedule-table-process {
+    margin-left: 6px;
+}
+
+.schedule-table-time,
+.schedule-table-time td {
+    text-align: left;
+    border: 1px solid white;
+}
+
+#algorithm-chart-div {
+    width: 80%;
+    height: 50%;
+}
+
+#round-robin-chart-div {
+    height: 40%;
+    width: 80%;
+}
+
+#gantt-chart {
+    height: 250px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#timeline-chart {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 250px;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#priority-toggle-btn {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0;
+    width: 60px;
+}
+
+.preferences {
+    list-style: none;
+}
+
+thead {
+    font-weight: bold;
+}
+
+#time-log-table-div {
+    margin-top: 10vh;
+    position: relative;
+}
+
+.time-log-table {
+    width: 10%;
+    position: absolute;
+}
+
+#remain-table {
+    left: 7.5%;
+}
+
+#ready-table {
+    left: 32.5%;
+}
+
+#running-table {
+    right: 32.5%;
+}
+
+#block-table {
+    left: 45%;
+    top: 8vw;
+}
+
+#terminate-table {
+    right: 7.5%;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 100px;
+}
+
+#remain-ready {
+    left: 20.5%;
+    top: -62px;
+}
+
+#ready-running {
+    transform: rotate(180deg);
+    left: 47%;
+    top: -15px;
+    font-size: 80px;
+}
+
+#running-ready {
+    left: 47%;
+    top: -60px;
+    font-size: 80px;
+}
+
+#running-terminate {
+    right: 20.5%;
+    top: -62px;
+}
+
+#running-block {
+    transform: rotate(135deg);
+    left: 52%;
+    top: 20px;
+}
+
+#block-ready {
+    transform: rotate(225deg);
+    left: 40%;
+    top: 20px;
+}
+
+#header {
+	background-color: #eee;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 27px 0;
+    margin: -10px -20px 45px -21px;
+}
+#header > div, #footer > div {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 20px;
+    
+}
+/** Logo **/
+#header .logo {
+	float: left;
+	margin-right: 20px;
+}
+#header .logo a {
+	background: url(../images/logo.png) no-repeat center top;
+	color: #000;
+	display: block;
+	font: 15px/30px 'Play';
+	height: 20px;
+	width: 76px;
+	padding-top: 68px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+}
+#navigation ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+#navigation li a {
+	color: #818181;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	color: #000;
+}
+#navigation li.active a {
+	color: #f99600;
+}
